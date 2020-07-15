@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body 
+{
+    background-image: url("home_background.png");
+    position: relative;
+    width: 1350px;
+    margin: 0 auto;
+}
+
+#cabecalho 
+{
+    width: 800px;
+    float:left;
+}
+
+#image-logo 
+{
+    margin-left: 10px;
+    border: none;
+}
+
+#logo 
+{
+    position: relative;
+    width: 110px;
+    float:left;
+}
+
+.search 
+{
+    position: relative;
+    float:right;
+    display: block;
+    background: url("pesquisa.png") no-repeat center;
+    background-size: 600px 60px;
+    padding: 30px 0px 30px 0px;
+    width: 600px;
+}
+
+#pesquisa 
+{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    margin-left: 20px;
+/*    margin-top: 20px; */
+    width: 500px;
+    background-color: #FFECB4;
+    padding: 7px 0px 10px 0px;
+}
+
+#submit-search 
+{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    background:transparent;
+    width: 60px;
+    height: 20px;
+    border: 20px transparent;
+}
+
+#user-space 
+{
+    width: 530px;
+    float: right;
+}
+
+#sell 
+{
+    background: url("vender.png") no-repeat center;
+    background-size: 200px 50px;
+    width: 200px;
+    padding: 32px 0px 32px 0px;
+    float: left;
+}
+
+#vender 
+{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    width: 150px;
+    margin-left: 20px;
+    background-color: #FFECB4;
+    padding: 7px 0px 10px 0px;
+}
+
+
+#user 
+{
+    padding: 5px 0px 5px 0px;
+    width: 150px;
+    float: right;
+}
+
+#direct 
+{
+    padding: 25px 0px 25px 0px;
+    width: 150px;
+    float: right;
+}

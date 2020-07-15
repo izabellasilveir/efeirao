@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("home_background.png");
+}
+.main {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+a img {
+    margin-left: 10px;
+    border: none;
+    float: left;
+}
+
+#pesquisa {
+    float: right;
+    width: 500px;
+    background-color: #FFECB4;
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
