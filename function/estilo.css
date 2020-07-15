@@ -1,3 +1,4 @@
+
 * {
     margin: 0px;
     padding: 0px;
@@ -13,6 +14,7 @@ body
 
 #cabecalho 
 {
+    position: relative;
     width: 800px;
     float:left;
 }
@@ -103,4 +105,61 @@ body
     padding: 25px 0px 25px 0px;
     width: 150px;
     float: right;
+}
+
+#menu
+{
+    position:relative;
+    width: 1350px;
+    text-align: center;
+}
+
+#link-menu{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+
+}
+
+#tit_produto
+{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    margin-left: 20px;
+/*    margin-top: 20px; */
+    width: 350px;
+    background-color: #AE8454;
+    padding: 7px 0px 10px 0px;
+}
+
+#titulo
+{
+    position: relative;
+    display: block;
+    background: url("titulo.png") no-repeat center;
+    background-size: 400px 50px;
+    padding: 30px 0px 30px 0px;
+    width: 400px;
+}
+
+#desc_produto
+{
+    border: 0 none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    margin-left: 20px;
+/*    margin-top: 20px; */
+    width: 600px;
+    background-color: #AE8454;
+}
+
+#descricao
+{
+    position: relative;
+    display: block;
+    background: url("descricao.png") no-repeat center;
+    background-size: 700px 100px;
+    padding: 30px 0px 30px 0px;
+    width: 700px;
 }

@@ -5,13 +5,8 @@
 	<meta charset="utf-8">
 
 	<link rel="stylesheet" href="function/estilo.css" type="text/css">
-<!-- 	<?php
-		$css = file_get_contents('function/estilo.css');
-		echo $css;
-	?> -->
 </head>
 <body>
-	<div class="main">
 		<div id="cabecalho">
 			<div id="logo">
 				<a href=""><img id="image-logo" width="90" title="Efeirão" src="function/logo.png"></a>
@@ -31,9 +26,32 @@
 			<div id="direct">
 				<a href=""><img id="image-logo" width="90" title="Direct" src="function/direct.jpg"></a>
 			</div>
-
 		</div>
-		
-	</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div id="menu">
+			<a href="home.php" id="link-menu">Categoria |</a>
+			<a href="" id="link-menu"> Configurações |</a>
+			<a href="" id="link-menu"> Favoritos |</a>
+			<a href="" id="link-menu"> Histórico</a>
+		</div>
+		<br>
+		<label><h3> Título </h3></label>
+		<div id="titulo">
+
+			<input type="text" id="tit_produto" name="tit_produto">
+			
+		</div>
+		</div>
+		<br>
+		<label><h3> Descrição </h3></label>
+		<div id="descricao">
+			<textarea rows="5" cols="20" maxlength="500" id="desc_produto" name="desc_produto"></textarea>			
+		</div>
+
 </body>
 </html>
