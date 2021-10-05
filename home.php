@@ -38,6 +38,7 @@
 			<a href="" id="link-menu"> Configurações |</a>
 			<a href="" id="link-menu"> Favoritos |</a>
 			<a href="" id="link-menu"> Histórico</a>
+			<a href="" id="link-menu"> Sair</a>
 		</div>
 		<br>
 		<label><h3> Título </h3></label>
