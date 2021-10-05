@@ -37,7 +37,6 @@
 			<a href="home.php" id="link-menu">Categoria |</a>
 			<a href="" id="link-menu"> Configurações |</a>
 			<a href="" id="link-menu"> Favoritos |</a>
-			<a href="" id="link-menu"> Histórico</a>
 		</div>
 		<br>
 		<label><h3> Título </h3></label>
